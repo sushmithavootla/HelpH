@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_home"
+        android:icon="@drawable/ic_home"
+        android:title="HOME"/>
+
+    <item android:id="@+id/menu_global"
+        android:icon="@drawable/ic_global"
+        android:title="GLOBAL COVID STATUS"/>
+    <item android:id="@+id/menu_country"
+        android:icon="@drawable/ic_country"
+        android:title="COUNTRY'S COVID STATUS"/>
+
+    <item android:id="@+id/menu_precautions"
+        android:icon="@drawable/ic_precautions"
+        android:title="PRECAUTIONS"/>
+    <item android:id="@+id/menu_symptons"
+        android:icon="@drawable/ic_symptoms"
+        android:title="SYMPTOMS"/>
+
+</menu>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#87CEFA"
+    tools:context=".LoginActivity">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="196dp"
+        android:layout_height="165dp"
+        app:layout_constraintEnd_toEndOf="@id/editText3"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="85dp"
+        app:srcCompat="@drawable/helping"
+        tools:layout_editor_absoluteY="147dp" />
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/imageView2"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/artifika"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:fontFamily="@font/artifika"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintTop_toBottomOf="@+id/editText3"
+        />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/artifika"
+        android:layout_marginLeft="140dp"
+        android:text="Sign In"
+        app:layout_constraintTop_toBottomOf="@+id/editText4"
+        />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:fontFamily="@font/artifika"
+        android:layout_marginLeft="90dp"
+        android:text="Not registered? Sign Up here"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        />
+
+
+</LinearLayout>

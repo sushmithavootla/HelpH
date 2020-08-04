@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="    "
+        android:textAllCaps="true"
+        android:background="#87CEFA"
+        />
+
+    <TextView
+        android:id="@+id/person"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="5dp"
+        android:fontFamily="@font/artifika"
+        android:text="TYPE OF DONATION :"
+        android:layout_marginRight="10dp"
+        android:textAllCaps="true"
+        android:background="#FFFFE0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="@id/imageView4"></TextView>
+
+    <EditText
+        android:id="@+id/PersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:focusable="false"
+        android:fontFamily="@font/artifika"
+        android:hint="Name"
+        android:background="#FFFFE0"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@id/person" />
+
+
+    <TextView
+        android:id="@+id/donation"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:fontFamily="@font/artifika"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:text="donation no :"
+        android:textAllCaps="true"
+        android:background="#FFFFE0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="@id/PersonName"></TextView>
+
+    <EditText
+        android:id="@+id/donatione"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="#FFFFE0"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:focusable="false"
+        android:fontFamily="@font/artifika"
+        android:hint="donation no"
+        app:layout_constraintEnd_toEndOf="@id/donation" />
+
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFFFE0"
+        android:fontFamily="@font/artifika"
+        android:text="Location :"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="@id/donatione"></TextView>
+
+    <EditText
+        android:id="@+id/locatione"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="#FFFFE0"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:focusable="false"
+        android:fontFamily="@font/artifika"
+        android:hint="Location"
+        android:inputType="textPostalAddress"
+        app:layout_constraintEnd_toEndOf="@id/location" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFFFE0"
+        android:fontFamily="@font/artifika"
+        android:text="description :"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="@id/locatione"></TextView>
+
+    <EditText
+        android:id="@+id/descriptione"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="#FFFFE0"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:focusable="false"
+        android:fontFamily="@font/artifika"
+        android:hint="description"
+        android:inputType="textPostalAddress"
+        app:layout_constraintEnd_toEndOf="@id/description" />
+
+
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/artifika"
+        android:text="quantity :"
+        android:background="#FFFFE0"
+        android:layout_marginLeft="5dp"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="@id/descriptione"></TextView>
+
+    <EditText
+        android:id="@+id/quantitye"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFFFE0"
+        android:ems="10"
+        android:focusable="false"
+        android:fontFamily="@font/artifika"
+        android:hint="quantity"
+        android:inputType="textPostalAddress"
+        app:layout_constraintEnd_toEndOf="@id/quantitye" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="    "
+        android:textAllCaps="true"
+        android:background="#87CEFA"
+        />
+
+
+</LinearLayout>

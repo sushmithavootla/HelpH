@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#87CEFA"
+    tools:context=".DonateActivity">
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="196dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="85dp"
+        app:srcCompat="@drawable/helping"
+        tools:layout_editor_absoluteY="147dp" />
+    <TextView
+        android:id="@+id/person"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="TYPE OF DONATION :"
+        android:textAllCaps="true"
+        android:fontFamily="@font/artifika"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="@id/imageView4"></TextView>
+
+    <EditText
+        android:id="@+id/PersonName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:fontFamily="@font/artifika"
+        android:inputType="textPersonName"
+        android:hint="TYPE OF DONATION"
+        android:background="#FFFFE0"
+        app:layout_constraintEnd_toEndOf="@id/person"/>
+
+
+    <TextView
+        android:id="@+id/donation"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="donation no :"
+        android:textAllCaps="true"
+        android:fontFamily="@font/artifika"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="@id/PersonName"></TextView>
+
+    <EditText
+        android:id="@+id/donatione"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:fontFamily="@font/artifika"
+        android:hint="donation no"
+        android:background="#FFFFE0"
+        app:layout_constraintEnd_toEndOf="@id/donation"/>
+
+
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="Location :"
+        android:textAllCaps="true"
+        android:fontFamily="@font/artifika"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="@id/donatione"></TextView>
+
+    <EditText
+        android:id="@+id/locatione"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:hint="Location"
+        android:background="#FFFFE0"
+        android:fontFamily="@font/artifika"
+        app:layout_constraintEnd_toEndOf="@id/location"/>
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="description :"
+        android:textAllCaps="true"
+        android:fontFamily="@font/artifika"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="@id/locatione"></TextView>
+
+    <EditText
+        android:id="@+id/descriptione"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:background="#FFFFE0"
+        android:inputType="textPostalAddress"
+        android:hint="description"
+        android:fontFamily="@font/artifika"
+        app:layout_constraintEnd_toEndOf="@id/description"/>
+
+
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="quantity :"
+        android:textAllCaps="true"
+        android:fontFamily="@font/artifika"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="@id/descriptione"></TextView>
+
+    <EditText
+        android:id="@+id/quantitye"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:fontFamily="@font/artifika"
+        android:inputType="textPostalAddress"
+        android:hint="quantity"
+        android:background="#FFFFE0"
+        app:layout_constraintEnd_toEndOf="@id/quantitye"/>
+
+    <Button
+        android:id="@+id/dsave"
+        android:layout_width="317dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/artifika"
+        android:text="SAVE"
+        android:background="#FFFFE0"
+        app:layout_constraintTop_toBottomOf="@+id/quantitye"
+
+        />
+
+
+
+
+</LinearLayout>

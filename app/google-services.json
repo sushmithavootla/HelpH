@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "909457027514",
+    "firebase_url": "https://helph-18887.firebaseio.com",
+    "project_id": "helph-18887",
+    "storage_bucket": "helph-18887.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909457027514:android:3cde532349e9d832f92d83",
+        "android_client_info": {
+          "package_name": "com.e.helph"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909457027514-p986oht09ubi4o9eu8urc5uo8g4ivhr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpvEqhnRyE92wt_Y5QhHAaEUSoEywpyRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909457027514-p986oht09ubi4o9eu8urc5uo8g4ivhr4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
